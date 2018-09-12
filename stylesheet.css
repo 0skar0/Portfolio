@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: -5px;
+  height: 100%;
+}
+
+.bgimg-1 {
+  background-image: url(pencil.jpg);
+  height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+header h1 {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  font-size: 50px;
+  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+}
+
+nav {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  font-family: 'Lato', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+section p{
+  font-family: 'Lato', sans-serif;
+}
+
+.material-icons {
+  font-size: 80px;
+}
+
+.content {
+  width: 1000px;
+  margin-top: 170px;
+}
+
+aside {
+  width: 200px;
+  float: left;
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 18px 18px 42px -4px rgba(0,0,0,0.75);
+
+
+}
+
+section {
+  width: 60%;
+  height: 100%;
+  float: left;
+  margin: 15px 0 40px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 18px 18px 42px -4px rgba(0,0,0,0.75);
+}
+
+
+
+footer {
+  width: 100%;
+  padding: 13px;
+  clear: both;
+  margin: 0 0 5px 11px;
+}
